@@ -33,6 +33,9 @@
   align-items: center;
   gap: 10px;
 }
+.navbar-intro img {
+    width: 100%;
+}
 .intro-title {
   font-size: 2.5vw;
   font-weight: 700;
@@ -81,12 +84,51 @@
 .btn-nav:hover {
   background-color: black;
 }
-
-
-
-
-
-
+.banner {
+  align-items: center;
+  gap: 50px;
+}
+.banner-content {
+  max-width: 670px;
+}
+.banner-title {
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 4vw;
+  margin-bottom: 24px;
+}
+#empower {
+  color: rgba(254, 163, 1, 1);
+}
+#vision {
+  color: rgba(1, 172, 253, 1);
+}
+.banner-description {
+  font-size: 1.4vw;
+  line-height: 2vw;
+  margin-bottom: 24px;
+}
+.btn-banner {
+  padding: 10px 45px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.25vw;
+  font-weight: 700;
+  line-height: 2vw;
+  color: #ffffff;
+  background-color: rgba(17, 17, 17, 1);
+  cursor: pointer;
+}
+.btn-banner:hover {
+    background-color: brown;
+    color: black;
+}
+.banner-image {
+  width: 530px;
+}
+.banner-image img {
+  width: 100%;
+}
 
 @media screen and (min-width: 576.1px) {
   .mobile-menu {
@@ -94,14 +136,18 @@
   }
 }
 @media screen and (max-width: 576px) {
-    .body {
-        background-color: #FFFFFF;
-    }
+  .body {
+    background-color: #ffffff;
+  }
+  .banner {
+    max-width: 390px;
+    margin: 0 auto;
+  }
   .navbar {
     padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 20px;
     padding-bottom: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
     border: 1px solid rgba(254, 163, 1, 1);
   }
   .intro-title {
@@ -115,5 +161,33 @@
   }
   .mobile-menu {
     cursor: pointer;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .banner-title {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .banner-description {
+    font-size: 3.5vw;
+    line-height: 3vw;
+    margin-bottom: 15px;
+  }
+  .banner-image {
+    width: 390px;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  .btn-banner {
+    font-size: 2.5vw;
+    line-height: 3vw;
   }
 }
