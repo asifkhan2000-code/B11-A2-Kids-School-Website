@@ -39,7 +39,7 @@
 .intro-title {
   font-size: 2.5vw;
   font-weight: 700;
-  line-height: 2vw;
+  /* line-height: 2vw; */
   color: rgba(17, 17, 17, 1);
 }
 .nav-links {
@@ -56,7 +56,7 @@
   text-decoration: none;
   font-size: 1.5vw;
   font-weight: 500;
-  line-height: 2vw;
+  /* line-height: 2vw; */
 }
 .nav-link1 {
   color: rgba(254, 163, 1, 1);
@@ -76,7 +76,7 @@
   border-radius: 12px;
   font-size: 1.25vw;
   font-weight: 600;
-  line-height: 2vw;
+  /* line-height: 2vw; */
   color: #ffffff;
   background-color: rgba(254, 163, 1, 1);
   cursor: pointer;
@@ -94,7 +94,7 @@
 .banner-title {
   font-size: 3vw;
   font-weight: 700;
-  line-height: 4vw;
+  /* line-height: 4vw; */
   margin-bottom: 24px;
 }
 #empower {
@@ -105,7 +105,7 @@
 }
 .banner-description {
   font-size: 1.4vw;
-  line-height: 2vw;
+  /* line-height: 2vw; */
   margin-bottom: 24px;
 }
 .btn-banner {
@@ -114,7 +114,7 @@
   border-radius: 12px;
   font-size: 1.25vw;
   font-weight: 700;
-  line-height: 2vw;
+  /* line-height: 2vw; */
   color: #ffffff;
   background-color: rgba(17, 17, 17, 1);
   cursor: pointer;
@@ -173,11 +173,11 @@
     padding-left: 15px;
     padding-right: 20px;
     font-size: 5vw;
-    line-height: 5vw;
+    /* line-height: 5vw; */
   }
   .banner-description {
     font-size: 3.5vw;
-    line-height: 3vw;
+    /* line-height: 3vw; */
     margin-bottom: 15px;
   }
   .banner-image {
@@ -188,6 +188,6 @@
   }
   .btn-banner {
     font-size: 2.5vw;
-    line-height: 3vw;
+    /* line-height: 3vw; */
   }
 }
