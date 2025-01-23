@@ -171,7 +171,6 @@
 .curriculum-card-1,
 .curriculum-card-2,
 .curriculum-card-3 {
-  /* max-width: 365px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -396,6 +395,81 @@
   background-color: brown;
   color: black;
 }
+/* footer section styles */
+.footer {
+  padding-top: 120px;
+  padding-bottom: 150px;
+  background-color: #01acfd;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 25% 25%;
+  column-gap: 5%;
+  justify-content: center;
+}
+.footer-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-img-container {
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 35px;
+}
+.footer-img-container img {
+  width: 82px;
+  height: 82px;
+}
+.footer-title {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-details {
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+/* footer-column-2 styles */
+.about-title {
+  margin-bottom: 32px;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-column-2 .footer-items {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.footer-column-2 .footer-link {
+  text-decoration: none;
+  font-size: 1.25vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* footer-column-3 styles */
+.media-title {
+  font-size: 1.6vw;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.footer-img-container {
+  display: flex;
+  gap: 10px;
+}
+.media-img-container {
+  width: 40px;
+  height: 40px;
+}
+.media-img-container img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 576px) {
   .body {
     background-color: #ffffff;
@@ -509,4 +583,39 @@
     font-size: 2vw;
     margin-bottom: 40px;
   }
+  .footer-container {
+    max-width: 390px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    justify-content: flex-start;
+  }
+  .footer {
+    padding-top: 60px;
+  }
+  .footer-img-container {
+    margin-bottom: 20px;
+  }
+  .footer-title {
+    font-size: 7vw;
+  }
+  .footer-details {
+    font-size: 3vw;
+    margin-bottom: 32px;
+  }
+  .about-title {
+    margin-bottom: 20px;
+    font-size: 4vw;
+  }
+  .footer-column-2 .footer-items {
+    margin-bottom: 15px;
+  }
+  .footer-column-2 .footer-link {
+    font-size: 3vw;
+  }
+  .media-title {
+    margin-top: 10px;
+    font-size: 4vw;
+    margin-bottom: 36px;
+  }
+
 }
